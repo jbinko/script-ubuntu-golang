@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Init variables
-GOLANG_WORKSPACE=${1:-$HOME}
+GOLANG_WORKSPACE=${1:-${HOME}}
 GOLANG_VERSION=${2:-'1.14.1'}
 
 # Check preconditions
